@@ -8,7 +8,7 @@ const information = ({ data }) => {
     const multiculturalAppearance =
       data.outputs[0].data.regions[0].data.concepts[22].name;
     return (
-      <div className="prop gray center">
+      <div className="prop f3 center">
         <h4>
           The magic brain has predicted that the subject in the image is {age}{' '}
           years of age.
