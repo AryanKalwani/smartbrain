@@ -8,7 +8,7 @@ const information = ({ data }) => {
     const multiculturalAppearance =
       data.outputs[0].data.regions[0].data.concepts[22].name;
     return (
-      <div className="prop center">
+      <div className="prop gray center">
         <h4>
           The magic brain has predicted that the subject in the image is {age}{' '}
           years of age.
@@ -18,7 +18,7 @@ const information = ({ data }) => {
           At last, the magic brain also thinks that the subject's Multicultural
           Appearance is {multiculturalAppearance}.
         </h4>
-        <h2>
+        <h2 className="gray">
           {' '}
           Note: These predictions are not completely accurate. These are merely
           predictions made by using a software and the creator does not have any
