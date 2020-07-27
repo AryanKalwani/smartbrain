@@ -1,0 +1,7 @@
+.prop {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 430px;
+}
